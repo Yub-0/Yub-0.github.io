@@ -112,8 +112,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
+        name: `Yub`,
+        short_name: `Yub`,
         description: `A Quasar Project`,
         display: 'standalone',
         orientation: 'portrait',
