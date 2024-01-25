@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+body{
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header > h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+.title-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background-color: #941e2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img{
+    max-width: 100%;
+    display: block;
+}
+.title-logo > h2 {
+    align-self: flex-start;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #858A8F;
+    line-height: 35px;
+    margin-left: 10px;
+}
+main{
+    /* border: 2px solid red; */
+    padding: 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+card{
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 3px 3px 8px gray;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+card > img{
+    border-radius: 0.25rem;
+    margin: 0 ;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-options{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-options > button {
+    background-color: #0176FF;
+    border: none;
+    border-radius: 0.25rem;
+    width: 5rem;
+    color: white;
+    padding: 6px 20px 6px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    margin: 4px 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+strong{
+    font-size: 1.2rem;
+    font-weight: 700px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+p{
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 700px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #858A8F;
+}
